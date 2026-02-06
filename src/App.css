@@ -1,0 +1,78 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.center-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* space between YES and initial NO */
+  position: relative;
+  height: 60px; /* enough space for NO to move around */
+}
+
+.yes-button, .no-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.yes-button {
+  background-color: #ff6699;
+  color: #fff;
+}
+
+.yes-button:hover {
+  background-color: #ff3366;
+}
+
+.no-button {
+  background-color: #cccccc;
+  color: #000;
+}
+
+.no-message {
+  margin-top: 15px;
+  font-size: 1.1em;
+  color: #ff3366;
+}
+
+h2 {
+  margin-top: 15px;
+  font-size: 1.5em;
+  color: #ff3366;
+}
